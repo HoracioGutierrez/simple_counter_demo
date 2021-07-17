@@ -12,9 +12,11 @@ const App = () => {
     return (
         <>
             <p>Contador {contador}</p>
-            <button onClick={sumar}>+</button>
-            <button onClick={resetear}>reset</button>
-            <button onClick={restar}>-</button>
+            <div className="button-navbar">
+                <button onClick={sumar}>+</button>
+                <button onClick={resetear}>reset</button>
+                <button onClick={restar}>-</button>
+            </div>
         </>
     )
 }
